@@ -31,8 +31,19 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
     
  * ### Data Preprocessing
     **Delievrabale 1:** 
-    1) After import the csv file as a DataFrame we **Drop EIN and NAME** columns.
-    2) 
+    1) After import the csv file as a DataFrame we **Drop EIN and NAME** columns.(Image:1)
+    2) Now, we populate the unique values of each columns and count the values for **APPLICATION_TYPE** column.
+    3) Now repeate the same task for **CLASSIFICATION** column.
+    4) Generate the binning for both Classification and Application_type column.
+    5) Generate the **categorical variable list** and **OneHotEncoder**.
+    6) Merge Encoded faetures in DataFrame
+    7) **Split Preprocessed Data into Training and Testing dataset**.
+    8) create and fit **StandardScaler** then **scale the data**.
+    
+   **Deliverable 2:**
+   In this deliverable we have to compile,train and evaluate the model from preprocessing data which we get in Delievrable 1:
+   1) In this step we create the hidden layer or define the Hidden nodes and layers for compiling.
+   2) 
  * ### Compiling, Training, and Evaluating the Model
 ## Summary
 
