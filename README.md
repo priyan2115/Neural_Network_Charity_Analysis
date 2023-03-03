@@ -1,2 +1,7 @@
-# Neural_Network_Charity_Analysis
-Neural_Network
+# Report on the Neural Network Model
+## Overview of the analysis
+## Results
+ * ### Data Preprocessing
+ * ### Compiling, Training, and Evaluating the Model
+## Summary
+
