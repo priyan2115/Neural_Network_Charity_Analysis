@@ -32,20 +32,48 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
  * ### Data Preprocessing
     **Delievrabale 1:** 
     1) After import the csv file as a DataFrame we **Drop EIN and NAME** columns.(Image:1)
+    
+    ![D1_Dropfield.png](resources/D1_Dropfield.png)
+    
     2) Now, we populate the unique values of each columns and count the values for **APPLICATION_TYPE** column.
+    
+    ![Unique_App_typeD1.png](resources/Unique_App_typeD1.png)
+    
     3) Now repeate the same task for **CLASSIFICATION** column.
     4) Generate the binning for both Classification and Application_type column.
-    5) Generate the **categorical variable list** and **OneHotEncoder**.
-    6) Merge Encoded faetures in DataFrame
+    
+    ![BinningD1.png](resources/BinningD1.png)
+    ![binning_classification.png](resources/binning_classification.png)
+    
+    5) Generate the **categorical variable list** and **OneHotEncoder**
+    
+    ![var_ins_Df_D1.png](resources/var_ins_Df_D1.png)
+    
+    6) Merge Encoded faetures in DataFrame.
+    
+    ![merge_one-hot_D1.png](resources/merge_one-hot_d1.png)
+    
     7) **Split Preprocessed Data into Training and Testing dataset**.
-    8) create and fit **StandardScaler** then **scale the data**.
+    
+    8) create and fit **StandardScaler** then **scale the data**
+    
+    ![split_fit_scale_D1.png](resources/split_fit_scale_D1.png)
     
  * ### Compiling, Training, and Evaluating the Model
   **Deliverable 2:**
    In this deliverable we have to compile,train and evaluate the model from preprocessing data which we get in Delievrable 1:
    1) In this step we create the hidden layer or define the Hidden nodes and layers for compiling.
+   
+   ![hidden_layer_D2.png](resources/hidden_layer_D2.png)
+   
    2) After that we compile the model with the use of **compile()*.
+   
+   ![compile_train_D2.png](resources/compile_train_D2.png)
+   
    3) Train the model with train variables we created before and assign **epochs value as 100**.
+   
+    ![acc_loss_save_D2.png](resources/acc_loss_save_D2.png)
+   
 
 **Deliverable 3:**
 Deliverable 3 is the optimization of **AlphabetSoupCharity**..
