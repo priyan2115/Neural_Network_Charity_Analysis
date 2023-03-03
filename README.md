@@ -50,10 +50,19 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
 **Deliverable 3:**
 Deliverable 3 is the optimization of **AlphabetSoupCharity**..
 we perform the same preprocessing as we did in the deliverable 1 and 2 untill training and testing the data but in this deliverable when we generate or assign the Hidden_nodes_layers we make some chnages over there ,
+
   1) assign **input_features as the length of X_train_scaled**
+  
+  ![D3_1.png](resources/D3_1.png)
+  
   2) Then, we import the checkpoint Dependencies.
   3) after compile the model here we create a **callback** that saves **model weight** every **5 epoches**.
+  
+  !D3_2_3_4.png](resources/D3_2_3_4.png)
+  
   4) after that step we can train the model and find the **Accuracy** which is more then **75%(0.7949)**.
+  
+  ![D3_last.png](resources/D3_last.png)
 
    
 ## Summary
