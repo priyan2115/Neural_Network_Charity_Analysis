@@ -57,4 +57,5 @@ we perform the same preprocessing as we did in the deliverable 1 and 2 untill tr
 
    
 ## Summary
+**As per my summury all deliverable contain all the needs mentioned in the module challenge as well as in Deliverable 3 as per my Model Accuracy result it acheive the target of performance 75%.
 
