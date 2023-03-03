@@ -33,11 +33,12 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
  * What variable(s) are considered the target(s) for your model?
      * The variable we are targeting in this module is the IS_SUCCESSFUL column.
 
-* What variable(s) are considered to be the features for your model?
+ * What variable(s) are considered to be the features for your model?
       * The following columns are the features for this model: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT,         SPECIAL_CONSIDERATIONS, ASK_AMT.
 
-* What variable(s) are neither targets nor features, and should be removed from the input data?
+ * What variable(s) are neither targets nor features, and should be removed from the input data?
       * The columns that are neither targers nor features and are removed from the input data are EIN and NAME because they represents identification information and have little to do with our outcome.
+      we can see that in following images.
     **Delievrabale 1:** 
     1) After import the csv file as a DataFrame we **Drop EIN and NAME** columns.(Image:1)
     
