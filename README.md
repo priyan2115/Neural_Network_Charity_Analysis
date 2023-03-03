@@ -73,6 +73,9 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
    In this deliverable we have to compile,train and evaluate the model from preprocessing data which we get in Delievrable 1:
    1) In this step we create the hidden layer or define the Hidden nodes and layers for compiling.
    
+   * How many neurons, layers, and activation functions did you select for your neural network model, and why?
+        * As shown in Fig. 1 below, this model is made with an input feature, two hidden layers, and an output layer. The first hidden layer has 80 neurons, while the second has 30 neurons. Each layer has an activation function: The first and second hidden layers have an activation function "relu" and the output layer has an activation function "sigmoid".
+   
    ![hidden_layer_D2.png](resources/hidden_layer_D2.png)
    
    2) After that we compile the model with the use of **compile()*.
