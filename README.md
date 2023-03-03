@@ -23,11 +23,16 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
    
 
 ## Results:
+
     We works for 3 Deliverable here , 
     Deliverable 1: In this deliverable we Preprocessing Data for a Neural Network Model.
     Deliverable 2: We Compile, Train, and Evaluate the Model data which we got in the Deliverable 1.
     Deliverable 3: In this deliverable we optimize the model.
+    
  * ### Data Preprocessing
+    **Delievrabale 1:** 
+    1) After import the csv file as a DataFrame we **Drop EIN and NAME** columns.
+    2) 
  * ### Compiling, Training, and Evaluating the Model
 ## Summary
 
