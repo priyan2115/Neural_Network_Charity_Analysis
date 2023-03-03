@@ -40,10 +40,12 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
     7) **Split Preprocessed Data into Training and Testing dataset**.
     8) create and fit **StandardScaler** then **scale the data**.
     
-   **Deliverable 2:**
+ * ### Compiling, Training, and Evaluating the Model
+  **Deliverable 2:**
    In this deliverable we have to compile,train and evaluate the model from preprocessing data which we get in Delievrable 1:
    1) In this step we create the hidden layer or define the Hidden nodes and layers for compiling.
-   2) 
- * ### Compiling, Training, and Evaluating the Model
+   2) After that we compile the model with the use of **compile()**.
+   3) Train the model with train variables we created before and assign **epochs value as 100**.
+   
 ## Summary
 
