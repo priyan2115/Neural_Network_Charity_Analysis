@@ -44,8 +44,17 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
   **Deliverable 2:**
    In this deliverable we have to compile,train and evaluate the model from preprocessing data which we get in Delievrable 1:
    1) In this step we create the hidden layer or define the Hidden nodes and layers for compiling.
-   2) After that we compile the model with the use of **compile()**.
+   2) After that we compile the model with the use of **compile()*.
    3) Train the model with train variables we created before and assign **epochs value as 100**.
+
+**Deliverable 3:**
+Deliverable 3 is the optimization of **AlphabetSoupCharity**..
+we perform the same preprocessing as we did in the deliverable 1 and 2 untill training and testing the data but in this deliverable when we generate or assign the Hidden_nodes_layers we make some chnages over there ,
+  1) assign **input_features as the length of X_train_scaled**
+  2) Then, we import the checkpoint Dependencies.
+  3) after compile the model here we create a **callback** that saves **model weight** every **5 epoches**.
+  4) after that step we can train the model and find the **Accuracy** which is more then **75%(0.7949)**.
+
    
 ## Summary
 
