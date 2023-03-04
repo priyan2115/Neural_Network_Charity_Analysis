@@ -60,7 +60,7 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
     
     6) Merge Encoded faetures in DataFrame.
     
-    ![merge_one-hot_D1.png](resources/merge_one-hot_d1.png)
+    ![merge_one-hot_D1.png](resources/merge_one-hot_D1.png)
     
     7) **Split Preprocessed Data into Training and Testing dataset**.
     
@@ -83,7 +83,8 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
    ![compile_train_D2.png](resources/compile_train_D2.png)
    
    3) Train the model with train variables we created before and assign **epochs value as 100**.
-   
+  * Were you able to achieve the target model performance?
+      * Using this neural network model, our accuracy was only 72.7% as shown in Fig. 2. Therefore, we did not achieve the target model performance of 75%.
     ![acc_loss_save_D2.png](resources/acc_loss_save_D2.png)
    
 
@@ -98,7 +99,7 @@ we perform the same preprocessing as we did in the deliverable 1 and 2 untill tr
   2) Then, we import the checkpoint Dependencies.
   3) after compile the model here we create a **callback** that saves **model weight** every **5 epoches**.
   
-  !D3_2_3_4.png](resources/D3_2_3_4.png)
+  ![D3_2_3_4.png](resources/D3_2_3_4.png)
   
   4) after that step we can train the model and find the **Accuracy** which is more then **75%(0.7949)**.
   
@@ -106,5 +107,5 @@ we perform the same preprocessing as we did in the deliverable 1 and 2 untill tr
 
    
 ## Summary
-**As per my summury all deliverable contain all the needs mentioned in the module challenge as well as in Deliverable 3 as per my Model Accuracy result it acheive the target of performance 75%.
+  **As per my summury all deliverable contain all the needs mentioned in the module challenge as well as in Deliverable 3 as per my Model Accuracy result it acheive the target of performance 75%.**
 
