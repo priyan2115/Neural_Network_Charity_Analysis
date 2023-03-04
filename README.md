@@ -110,7 +110,7 @@ we perform the same preprocessing as we did in the deliverable 1 and 2 untill tr
  ![image_name](link)
  
  * Adding third Hidden Layer.
- ![image_name](link)
+ ![D3_nuron3.png](resources/D3_nuron3.png)
  
 
    
