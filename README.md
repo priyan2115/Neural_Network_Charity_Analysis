@@ -71,20 +71,14 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
  * ### Compiling, Training, and Evaluating the Model
   **Deliverable 2:**
    In this deliverable we have to compile,train and evaluate the model from preprocessing data which we get in Delievrable 1:
-   1) In this step we create the hidden layer or define the Hidden nodes and layers for compiling.
    
-   * How many neurons, layers, and activation functions did you select for your neural network model, and why?
+  1) In this step we create the hidden layer or define the Hidden nodes and layers for compiling.**
+   
+   * **Q-1) How many neurons, layers, and activation functions did you select for your neural network model, and why?**
         * As shown in Fig. 1 below, this model is made with an input feature, two hidden layers, and an output layer. The first hidden layer has 80 neurons, while the second has 30 neurons. Each layer has an activation function: The first and second hidden layers have an activation function "relu" and the output layer has an activation function "sigmoid".
    
    ![hidden_layer_D2.png](resources/hidden_layer_D2.png)
    
-   2) After that we compile the model with the use of **compile()*.
-   
-   ![compile_train_D2.png](resources/compile_train_D2.png)
-   
-   3) Train the model with train variables we created before and assign **epochs value as 100**.
-  * Were you able to achieve the target model performance?
-      * Using this neural network model, our accuracy was only 72.7% as shown in Fig. 2. Therefore, we did not achieve the target model performance of 75%.
     ![acc_loss_save_D2.png](resources/acc_loss_save_D2.png)
    
 
@@ -94,6 +88,9 @@ we perform the same preprocessing as we did in the deliverable 1 and 2 untill tr
 
   1) assign **input_features as the length of X_train_scaled**
   
+   2) Train the model with train variables we created before and assign **epochs value as 100**.
+  * **Q-2)Were you able to achieve the target model performance?**
+      * Using this neural network model, our accuracy is 79.5% as shown in Fig. so,here we achieve the target model performance of 75%.
   ![D3_1.png](resources/D3_1.png)
   
   2) Then, we import the checkpoint Dependencies.
