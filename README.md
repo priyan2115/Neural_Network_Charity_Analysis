@@ -79,7 +79,7 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
    
    ![hidden_layer_D2.png](resources/hidden_layer_D2.png)
    
-    ![acc_loss_save_D2.png](resources/acc_loss_save_D2.png)
+   ![acc_loss_save_D2.png](resources/acc_loss_save_D2.png)
    
 
 **Deliverable 3:**
@@ -88,7 +88,7 @@ we perform the same preprocessing as we did in the deliverable 1 and 2 untill tr
 
   1) assign **input_features as the length of X_train_scaled**
   
-   2) Train the model with train variables we created before and assign **epochs value as 100**.
+  2) Train the model with train variables we created before and assign **epochs value as 100**.
   * **Q-2)Were you able to achieve the target model performance?**
       * Using this neural network model, our accuracy is 79.5% as shown in Fig. so,here we achieve the target model performance of 75%.
   ![D3_1.png](resources/D3_1.png)
@@ -101,6 +101,17 @@ we perform the same preprocessing as we did in the deliverable 1 and 2 untill tr
   4) after that step we can train the model and find the **Accuracy** which is more then **75%(0.7949)**.
   
   ![D3_last.png](resources/D3_last.png)
+  
+ * **Q-3 What steps did you take to try and increase model performance?**
+ * Changing the number of neurons in each layer.
+ ![image_name](link)
+ 
+ * Changing Activation Type.
+ ![image_name](link)
+ 
+ * Adding third Hidden Layer.
+ ![image_name](link)
+ 
 
    
 ## Summary
