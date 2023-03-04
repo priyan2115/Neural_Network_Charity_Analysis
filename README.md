@@ -30,22 +30,90 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
     Deliverable 3: In this deliverable we optimize the model.
     
  * ### Data Preprocessing
+ * What variable(s) are considered the target(s) for your model?
+     * The variable we are targeting in this module is the IS_SUCCESSFUL column.
+
+ * What variable(s) are considered to be the features for your model?
+      * The following columns are the features for this model: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT,         SPECIAL_CONSIDERATIONS, ASK_AMT.
+
+ * What variable(s) are neither targets nor features, and should be removed from the input data?
+      * The columns that are neither targers nor features and are removed from the input data are EIN and NAME because they represents identification information and have little to do with our outcome.
+      we can see that in following images.
     **Delievrabale 1:** 
     1) After import the csv file as a DataFrame we **Drop EIN and NAME** columns.(Image:1)
+    
+    ![D1_Dropfield.png](resources/D1_Dropfield.png)
+    
     2) Now, we populate the unique values of each columns and count the values for **APPLICATION_TYPE** column.
+    
+    ![Unique_App_typeD1.png](resources/Unique_App_typeD1.png)
+    
     3) Now repeate the same task for **CLASSIFICATION** column.
     4) Generate the binning for both Classification and Application_type column.
-    5) Generate the **categorical variable list** and **OneHotEncoder**.
-    6) Merge Encoded faetures in DataFrame
+    
+    ![BinningD1.png](resources/BinningD1.png)
+    ![binning_classification.png](resources/binning_classification.png)
+    
+    5) Generate the **categorical variable list** and **OneHotEncoder**
+    
+    ![var_ins_Df_D1.png](resources/var_ins_Df_D1.png)
+    
+    6) Merge Encoded faetures in DataFrame.
+    
+    ![merge_one-hot_D1.png](resources/merge_one-hot_D1.png)
+    
     7) **Split Preprocessed Data into Training and Testing dataset**.
-    8) create and fit **StandardScaler** then **scale the data**.
+    
+    8) create and fit **StandardScaler** then **scale the data**
+    
+    ![split_fit_scale_D1.png](resources/split_fit_scale_D1.png)
     
  * ### Compiling, Training, and Evaluating the Model
   **Deliverable 2:**
    In this deliverable we have to compile,train and evaluate the model from preprocessing data which we get in Delievrable 1:
-   1) In this step we create the hidden layer or define the Hidden nodes and layers for compiling.
-   2) After that we compile the model with the use of **compile()**.
-   3) Train the model with train variables we created before and assign **epochs value as 100**.
+   
+  1) In this step we create the hidden layer or define the Hidden nodes and layers for compiling.**
+   
+   * **Q-1) How many neurons, layers, and activation functions did you select for your neural network model, and why?**
+        * As shown in Fig. 1 below, this model is made with an input feature, two hidden layers, and an output layer. The first hidden layer has 80 neurons, while the second has 30 neurons. Each layer has an activation function: The first and second hidden layers have an activation function "relu" and the output layer has an activation function "sigmoid".
+   
+   ![hidden_layer_D2.png](resources/hidden_layer_D2.png)
+   
+   ![acc_loss_save_D2.png](resources/acc_loss_save_D2.png)
+   
+
+**Deliverable 3:**
+Deliverable 3 is the optimization of **AlphabetSoupCharity**..
+we perform the same preprocessing as we did in the deliverable 1 and 2 untill training and testing the data but in this deliverable when we generate or assign the Hidden_nodes_layers we make some chnages over there ,
+
+  1) assign **input_features as the length of X_train_scaled**
+  
+  2) Train the model with train variables we created before and assign **epochs value as 100**.
+  * **Q-2)Were you able to achieve the target model performance?**
+      * Using this neural network model, our accuracy is 79.5% as shown in Fig. so,here we achieve the target model performance of 75%.
+  ![D3_1.png](resources/D3_1.png)
+  
+  2) Then, we import the checkpoint Dependencies.
+  3) after compile the model here we create a **callback** that saves **model weight** every **5 epoches**.
+  
+  ![D3_2_3_4.png](resources/D3_2_3_4.png)
+  
+  4) after that step we can train the model and find the **Accuracy** which is more then **75%(0.7949)**.
+  
+  ![D3_last.png](resources/D3_last.png)
+  
+ * **Q-3 What steps did you take to try and increase model performance?**
+ * Changing the number of neurons in each layer.
+ ![image_name](link)
+ 
+ * Changing Activation Type.
+ ![image_name](link)
+ 
+ * Adding third Hidden Layer.
+ ![image_name](link)
+ 
+
    
 ## Summary
+  **As per my summury all deliverable contain all the needs mentioned in the module challenge as well as in Deliverable 3 as per my Model Accuracy result it acheive the target of performance 75%.**
 
