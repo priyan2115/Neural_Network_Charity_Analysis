@@ -79,7 +79,7 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
    
    ![hidden_layer_D2.png](resources/hidden_layer_D2.png)
    
-   ![acc_loss_save_D2.png](resources/acc_loss_save_D2.png)
+   
    
 
 **Deliverable 3:**
@@ -104,12 +104,11 @@ we perform the same preprocessing as we did in the deliverable 1 and 2 untill tr
   
  * **Q-3 What steps did you take to try and increase model performance?**
  * Changing the number of neurons in each layer.
- ![image_name](link)
+ ![acc_loss_save_D2.png](resources/acc_loss_save_D2.png)
+ ![hidden_layer_D2.png](resources/hidden_layer_D2.png)
+   
  
- * Changing Activation Type.
- ![image_name](link)
- 
- * Adding third Hidden Layer.
+  * Adding third Hidden Layer.
  ![D3_nuron3.png](resources/D3_nuron3.png)
  
 
